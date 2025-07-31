@@ -2,9 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "dev": "ts-node-dev index.ts"
-  },
+ "scripts": {
+  "dev": "ts-node-dev index.ts",
+  "start": "node dist/index.js",         // for running in production
+  "build": "tsc"                         // for compiling TypeScript
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
